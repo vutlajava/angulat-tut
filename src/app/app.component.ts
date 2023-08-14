@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'blog';
+  name1 ='Ashok';
+  name2 ='Ashok';
+
+  getMessage(name1:string,name2:any) {
+
+    return "First Name :"+name1+"  Second name :"+name2;
+  }
 }
